@@ -87,10 +87,10 @@ P.S. You can delete this when you're done too. It's your config now! :)
 -- TAB
 local o = vim.o
 
-o.expandtab = true # expand tab input with spaces characters
-o.smartindent = true # syntax aware indentations for newline inserts
-o.tabstop = 4 # num of space characters per tab
-o.shiftwidth = 4 # spaces per indentation level
+o.expandtab = true -- expand tab input with spaces characters
+o.smartindent = true -- syntax aware indentations for newline inserts
+o.tabstop = 4 -- num of space characters per tab
+o.shiftwidth = 4 -- spaces per indentation level
 
 -- Set <space> as the leader key
 -- See `:help mapleader`
